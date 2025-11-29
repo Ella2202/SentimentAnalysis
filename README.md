@@ -76,10 +76,13 @@ Install the Python packages used in the notebook:
 
 ```bash
 pip install numpy pandas matplotlib seaborn nltk scikit-learn wordcloud xgboost
+```
+
 Additionally, download NLTK stopwords (within Python):
+```
 import nltk
 nltk.download('stopwords')
-
+```
 Run the Jupyter notebook or Python script.
 Execute all sections sequentially:
 - Data loading and cleaning
